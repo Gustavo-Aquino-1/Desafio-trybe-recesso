@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.topo{
+    background-image: url("pizza.jpg");
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    height: 350px;
+}
+
+h1{
+    margin-top: 150px;
+    font-size: 40px;
+}
+
+.nave{
+    padding: 10px;
+    font-size: 16px;
+    background-color: rgb(146, 16, 16);
+    position: fixed;
+    width: 100%;
+}
+
+.nave ul li {
+    display: inline-block;
+    text-align: left;
+}
+
+.nave ul li a{
+    color: white;
+    text-decoration: none;
+    margin-right: 200px;
+}
+
+.nave ul li a:hover{
+    color:yellow;
+}
+
+.title{
+    color: brown;
+    text-align: center;
+    padding: 30px;
+    margin: 40px;
+    font-size: 35px;
+}
+
+#info p{
+    text-align: center;
+    width: 80%;
+    margin: 10px auto;
+    font-size: 20px;
+}
+
+#cardapio img{
+    width: 200px;
+    height: 150px;
+    border-radius: 20px;
+}
+
+#cardapio{
+    width: 80%;
+    margin: 60px auto;
+    text-align: center;
+    border: 5px solid rgb(245, 190, 12);
+    background-color: rgb(255, 239, 239);
+    color: yellow;
+    background-color: red;
+    font-weight: bold;
+    padding-bottom: 70px;
+}
+#cardapio h2{
+    color: white;
+}
+
+.cardapio_doce{
+    width: 80%;
+    margin: 200px auto;
+    text-align: center;
+    border: 5px solid rgb(117, 22, 146);
+    background-color: rgb(255, 239, 239);
+    color: rgb(14, 14, 13);
+    background-color: rgb(213, 124, 221);
+    font-weight: bold;
+    padding-bottom: 70px;
+}
+
+.cardapio_doce img{
+    width: 200px;
+    height: 150px;
+    border-radius: 20px;
+}
+
+.cardapio_doce h2{
+    color: white;
+}
+
+.pizzas{
+    display: inline-block;
+    width: 300px;
+    padding: 20px;
+}
+
+#cardapio .button{
+    margin-left: 19px;
+    margin-top: 10px;
+    padding: 20px;
+    width: 210px;
+    background-color: rgb(239, 243, 8);
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    border: none;
+}
+
+.cardapio_doce .button{
+    margin-left: 19px;
+    margin-top: 10px;
+    padding: 20px;
+    width: 210px;
+    background-color: rgb(46, 10, 80);
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    border: none;
+}
+
+#contato{
+    text-align: center;
+}
+
+#contato p{
+    margin-bottom: 90px;
+    font-size: 20px;
+}
+
+#cardapio p:nth-child(2){
+    color: white;
+}
+.cardapio_doce p{
+    color: beige;
+}
+.cardapio_doce p:nth-child(3){
+    color: rgb(11, 12, 12);
+}
+.fim{
+    margin-top: 100px;
+    padding: 20px;
+    text-align: center;
+    background-image: url("pizza.jpg");
+    background-size: cover;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.fim img{
+    margin-top: 50px;
+    border-radius: 15px;
+}
+
+h4{
+    margin-right: 150px;
+    color: rgb(241, 245, 2);
+    font-size: 20px;
+    margin-left: 80px;
+}
+
+#equipe{
+    width: 80%;
+    margin: 60px auto;
+    text-align: center;
+    font-weight: bold;
+}
+#equipe img{
+    border-radius: 30px;
+    width: 320px;
+    height: 250px;
+    margin: 20px auto;
+}
+
+.membros{
+    text-align: center;
+    display: inline-block;
+    padding: 20px;
+    font-size: 20px;
+    color: rgb(182, 29, 29);
+}
+
+article{
+    margin-bottom: 200px;
+}
+
+#depoimentos{
+    width: 100%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.client-testemonie{
+    display: inline-block;
+    max-width: 15%;
+    text-align: center;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.client-testemonie p{
+    margin-bottom: 15px;
+}
+
+#depoimentos img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+h5{
+    font-size: 18px;
+}
